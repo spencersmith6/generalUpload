@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mindlight</title>
+</head>
+<body>
+    <h1>Error</h1>
+    <b>There was a field missing in your submission. Please try again</b>
+    <form action="/process" method=post enctype=multipart/form-data>
+        <b>Clinic Name:</b>
+        <input type="text" name="clinic">
+        <b>Data Folder:</b>
+        <input type="file" name="data" multiple>
+        <b>Please provide some brief notes about the structure of your data:</b>
+        <input type=text name='notes'> <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
